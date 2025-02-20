@@ -15,7 +15,7 @@
     <section>
         <main>
             <div class="container">
-            <a href="<?= BASE_URL ?>">Volver a la lista</a>
+                <a href="<?= BASE_URL ?>">Volver a la lista</a>
                 <!-- Formulario para añadir un nuevo contacto -->
                 <form method="POST" action="">
                     <div>
@@ -40,7 +40,7 @@
 
                     <button type="submit">Guardar Contacto</button>
                 </form>
-                
+
             </div>
         </main>
     </section>

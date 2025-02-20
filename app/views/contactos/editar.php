@@ -15,7 +15,7 @@
     <section>
         <main>
             <div class="container">
-            <a href="<?= BASE_URL ?>">Volver a la lista</a>
+                <a href="<?= BASE_URL ?>">Volver a la lista</a>
                 <!-- Formulario para editar un contacto existente -->
                 <form method="POST" action="">
                     <input type="hidden" name="id" value="<?= htmlspecialchars($data->id) ?>">

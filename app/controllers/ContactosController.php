@@ -40,7 +40,7 @@ class ContactosController extends Controller
         }
     }
 
-    // 03 -- Método para editar contacto
+    // 03 -- Método para editar
     public function editar($id)
     {
         $contacto = Contacto::find($id);
@@ -65,12 +65,12 @@ class ContactosController extends Controller
                 echo "Error al actualizar el contacto: " . $e->getMessage();
             }
         } else {
-            // Cargar la vista para editar contacto
+            
             $this->view('editar', $contacto);
         }
     }
 
-    // 03 -- Método para eliminar contacto
+    // 03 -- Método para eliminar 
     public function eliminar($id)
     {
         try {
